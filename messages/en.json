@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "title": "CHMK: Mineral Processing Engineering Club",
+    "description": "Istanbul Technical University Mineral Processing Engineering Club. Technical trips, seminars, trainings and industry connections."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "team": "Team",
+    "events": "Events",
+    "media": "Media",
+    "join": "Join Us",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Close",
+    "themeToggle": "Toggle theme",
+    "langToggle": "Switch language"
+  },
+  "common": {
+    "viewCase": "View case",
+    "share": "Share",
+    "linkCopied": "Link copied",
+    "configMissing": "The site is not configured yet. Please try again later."
+  },
+  "home": {
+    "heroTitle": "Hi, we are the Mineral Processing Engineering Club!",
+    "heroText": "We crush, we grind, we concentrate. A community that turns ore into value and students into engineers.",
+    "heroCta": "Join Us",
+    "aboutLabel": "About",
+    "aboutTitle": "We enrich the ore and the community",
+    "aboutText": "CHMK connects ITU Mineral Processing Engineering students with the field, the industry and each other. We run a year-round program spanning technical trips, seminars, trainings and social events.",
+    "aboutLink": "Learn more",
+    "teamLabel": "Team",
+    "teamTitle": "Meet the team",
+    "teamCta": "See the team",
+    "statLabel": "Years Running",
+    "statText": "years of building together at ITU",
+    "featuresLabel": "What Awaits You?",
+    "featuresTitle": "A program that runs from the field to the industry",
+    "features": {
+      "trips": {
+        "title": "Technical Trips",
+        "text": "Regular visits to mine sites and processing plants; see the process live, on site."
+      },
+      "seminars": {
+        "title": "Seminars",
+        "text": "Current topics with industry professionals and academics: from flotation to critical minerals."
+      },
+      "trainings": {
+        "title": "Trainings",
+        "text": "Software, laboratory and professional skill trainings that go beyond the classroom."
+      },
+      "industry": {
+        "title": "Industry Connections",
+        "text": "Meet alumni and companies; open the right doors early for internships and careers."
+      }
+    },
+    "videoLabel": "Featured Video",
+    "videoTitle": "Get to know us in 3 minutes",
+    "eventsLabel": "Events",
+    "eventsTitle": "Current Events",
+    "eventsEmpty": "Upcoming events will appear here very soon. Stay tuned!",
+    "eventsAll": "All events",
+    "carouselLabel": "Explore",
+    "carousel": {
+      "s1Title": "What Is Mineral Processing?",
+      "s1Text": "The journey from rock to concentrate. Our profession in 2 minutes.",
+      "s2Title": "Event Archive",
+      "s2Text": "From trips to seminars, everything we have done so far."
+    }
+  },
+  "about": {
+    "label": "About",
+    "title": "From rock to value, from student to engineer",
+    "intro": "CHMK is the official student club run by the students of the Mineral Processing Engineering Department at Istanbul Technical University.",
+    "whatLabel": "The Profession",
+    "whatTitle": "What is mineral processing?",
+    "whatText": "Mineral processing is the transformation of mined ore into industrial concentrates: liberation by crushing, grinding and screening, followed by enrichment through flotation, gravity and magnetic separation. The copper in your phone, the aluminium in your car and the lithium in your battery all pass through these processes. Mineral processing engineers design this transformation to be efficient, economical and environmentally responsible.",
+    "missionTitle": "Mission",
+    "missionText": "To connect students with the field, the industry and current technologies, raising the visibility of the department and the quality of its graduates.",
+    "visionTitle": "Vision",
+    "visionText": "To be the most active and best-connected student community in mineral processing in Türkiye.",
+    "historyTitle": "Founding and History",
+    "historyText": "Our club was founded in 2008 under the ITU Faculty of Mines. Since then it has run a growing program of technical trips, seminars and trainings every year."
+  },
+  "team": {
+    "label": "Team",
+    "title": "The people behind the club",
+    "intro": "Our advisor, executive board and audit board.",
+    "groups": {
+      "advisor": "Advisor",
+      "board": "Executive Board",
+      "audit": "Audit Board"
+    },
+    "roles": {
+      "advisor": "Academic Advisor",
+      "president": "Club President",
+      "vicePresident": "Vice President",
+      "boardMember": "Executive Board Member",
+      "auditHead": "Head of the Audit Board",
+      "auditMember": "Audit Board Member"
+    },
+    "linkedin": "LinkedIn profile"
+  },
+  "events": {
+    "label": "Events",
+    "title": "Events & Announcements",
+    "intro": "Our upcoming program and past events.",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "empty": "No events to list right now. Coming soon!",
+    "announcementsTitle": "Announcements",
+    "announcementsEmpty": "No announcements right now.",
+    "detailsLink": "Details"
+  },
+  "media": {
+    "label": "Media",
+    "title": "Watch us",
+    "intro": "Our videos tell the club's story best. Subscribe so you never miss an event.",
+    "subscribe": "Subscribe",
+    "othersTitle": "Other platforms",
+    "othersText": "For announcements and behind the scenes:"
+  },
+  "join": {
+    "label": "Join Us",
+    "title": "Become a member",
+    "intro": "Fill in the form and we will see you at the next event. Applications are reviewed by the executive board.",
+    "fields": {
+      "name": "Full Name",
+      "studentNo": "Student Number",
+      "department": "Department / Faculty",
+      "classYear": "Year",
+      "email": "E-mail",
+      "phone": "Phone",
+      "motivation": "Why do you want to join? (optional)",
+      "motivationPlaceholder": "A few sentences are enough…"
+    },
+    "classOptions": {
+      "prep": "Prep Year",
+      "y1": "1st Year",
+      "y2": "2nd Year",
+      "y3": "3rd Year",
+      "y4": "4th Year",
+      "grad": "Graduate"
+    },
+    "kvkkLabel": "Personal Data (KVKK) Notice",
+    "kvkkText": "I consent to the processing of my personal data by CHMK under Turkish Law No. 6698 (KVKK) for the purpose of receiving and evaluating my membership application.",
+    "submit": "Send Application",
+    "sending": "Sending…",
+    "successTitle": "Application received!",
+    "successText": "Thank you! We will review your application and get back to you by e-mail.",
+    "errors": {
+      "required": "This field is required.",
+      "email": "Enter a valid e-mail address.",
+      "kvkk": "You must accept the KVKK notice to continue.",
+      "generic": "Something went wrong. Please try again."
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Get in touch",
+    "intro": "For questions, collaboration offers, or just to say hello.",
+    "emailTitle": "E-mail",
+    "socialTitle": "Social Media",
+    "formTitle": "Leave a short message",
+    "form": {
+      "name": "Your name",
+      "email": "Your e-mail",
+      "message": "Your message",
+      "send": "Open in your mail app"
+    },
+    "formNote": "This form prepares the message in your mail app; you hit send.",
+    "locationTitle": "Location",
+    "locationText": "ITU Ayazağa Campus, Faculty of Mines, 34469 Sarıyer / Istanbul"
+  },
+  "footer": {
+    "tagline": "ITU Mineral Processing Engineering Club. We crush, grind and concentrate.",
+    "linksTitle": "Pages",
+    "contactTitle": "Contact",
+    "joinCta": "Join Us",
+    "rights": "All rights reserved."
+  }
+}

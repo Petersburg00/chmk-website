@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "title": "CHMK: Cevher Hazırlama Mühendisliği Kulübü",
+    "description": "İstanbul Teknik Üniversitesi Cevher Hazırlama Mühendisliği Kulübü. Teknik geziler, seminerler, eğitimler ve sektör bağlantıları."
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "team": "Ekip",
+    "events": "Etkinlikler",
+    "media": "Medya",
+    "join": "Üye Ol",
+    "contact": "İletişim",
+    "menu": "Menü",
+    "close": "Kapat",
+    "themeToggle": "Tema değiştir",
+    "langToggle": "Dili değiştir"
+  },
+  "common": {
+    "viewCase": "İncele",
+    "share": "Paylaş",
+    "linkCopied": "Bağlantı kopyalandı",
+    "configMissing": "Site henüz yapılandırılmadı. Lütfen daha sonra tekrar deneyin."
+  },
+  "home": {
+    "heroTitle": "Merhaba, biz Cevher Hazırlama Mühendisliği Kulübüyüz!",
+    "heroText": "Kırıyoruz, öğütüyoruz, zenginleştiriyoruz. Cevheri değere, öğrenciyi mühendise dönüştüren topluluk.",
+    "heroCta": "Aramıza Katıl",
+    "aboutLabel": "Hakkımızda",
+    "aboutTitle": "Cevheri de topluluğu da zenginleştiriyoruz",
+    "aboutText": "CHMK, İTÜ Cevher Hazırlama Mühendisliği öğrencilerini sahayla, sektörle ve birbirleriyle buluşturur. Teknik gezilerden seminerlere, eğitimlerden sosyal etkinliklere uzanan bir yıl boyu program yürütüyoruz.",
+    "aboutLink": "Daha fazlası",
+    "teamLabel": "Ekip",
+    "teamTitle": "Ekibimize göz at",
+    "teamCta": "Ekibi Gör",
+    "statLabel": "Kaçıncı Yıl",
+    "statText": "yıldır İTÜ'de birlikte üretiyoruz",
+    "featuresLabel": "Seni Neler Bekliyor?",
+    "featuresTitle": "Sahadan sektöre uzanan bir program",
+    "features": {
+      "trips": {
+        "title": "Teknik Geziler",
+        "text": "Maden sahaları ve zenginleştirme tesislerine düzenli geziler; prosesi yerinde, çalışırken görürsün."
+      },
+      "seminars": {
+        "title": "Seminerler",
+        "text": "Sektör profesyonelleri ve akademisyenlerle güncel konular: flotasyondan kritik minerallere."
+      },
+      "trainings": {
+        "title": "Eğitimler",
+        "text": "Yazılım, laboratuvar ve mesleki beceri eğitimleriyle derslerin ötesine geç."
+      },
+      "industry": {
+        "title": "Sektör Bağlantıları",
+        "text": "Mezunlar ve şirketlerle tanış; staj ve kariyer için doğru kapıları erken aç."
+      }
+    },
+    "videoLabel": "Öne Çıkan Video",
+    "videoTitle": "Bizi 3 dakikada tanı",
+    "eventsLabel": "Etkinlikler",
+    "eventsTitle": "Güncel Etkinliklerimiz",
+    "eventsEmpty": "Yaklaşan etkinlikler çok yakında burada. Takipte kal!",
+    "eventsAll": "Tüm etkinlikler",
+    "carouselLabel": "Keşfet",
+    "carousel": {
+      "s1Title": "Cevher Hazırlama Nedir?",
+      "s1Text": "Kayadan konsantreye giden yolculuk. Mesleğimizi 2 dakikada anlattık.",
+      "s2Title": "Etkinlik Arşivi",
+      "s2Text": "Gezilerden seminerlere, bugüne kadar yaptıklarımız."
+    }
+  },
+  "about": {
+    "label": "Hakkımızda",
+    "title": "Kayadan değere, öğrenciden mühendise",
+    "intro": "CHMK, İstanbul Teknik Üniversitesi Cevher Hazırlama Mühendisliği Bölümü öğrencileri tarafından yürütülen resmi öğrenci kulübüdür.",
+    "whatLabel": "Meslek",
+    "whatTitle": "Cevher hazırlama nedir?",
+    "whatText": "Cevher hazırlama, madenden çıkarılan cevherin kırma, öğütme ve eleme ile serbestleştirilip flotasyon, gravite ve manyetik ayırma gibi yöntemlerle zenginleştirilerek endüstrinin kullanabileceği konsantrelere dönüştürülmesidir. Telefonundaki bakır, arabandaki alüminyum ve bataryandaki lityum bu proseslerden geçerek sana ulaşır. Cevher hazırlama mühendisleri bu dönüşümü verimli, ekonomik ve çevreye duyarlı biçimde tasarlar.",
+    "missionTitle": "Misyon",
+    "missionText": "Öğrencileri sahayla, sektörle ve güncel teknolojilerle buluşturarak bölümün görünürlüğünü ve mezun kalitesini yükseltmek.",
+    "visionTitle": "Vizyon",
+    "visionText": "Türkiye'nin cevher hazırlama alanındaki en aktif ve en bağlantılı öğrenci topluluğu olmak.",
+    "historyTitle": "Kuruluş ve Tarihçe",
+    "historyText": "Kulübümüz 2008 yılında İTÜ Maden Fakültesi çatısı altında kuruldu. O günden bu yana teknik geziler, seminerler ve eğitimlerle her yıl büyüyen bir program yürütüyor."
+  },
+  "team": {
+    "label": "Ekip",
+    "title": "Bu işi birlikte yürütenler",
+    "intro": "Danışmanımız, yönetim kurulumuz ve denetim kurulumuz.",
+    "groups": {
+      "advisor": "Danışman",
+      "board": "Yönetim Kurulu",
+      "audit": "Denetim Kurulu"
+    },
+    "roles": {
+      "advisor": "Danışman Öğretim Üyesi",
+      "president": "Kulüp Başkanı",
+      "vicePresident": "Kulüp Başkan Yardımcısı",
+      "boardMember": "Yönetim Kurulu Üyesi",
+      "auditHead": "Denetim Kurulu Başkanı",
+      "auditMember": "Denetim Kurulu Üyesi"
+    },
+    "linkedin": "LinkedIn profili"
+  },
+  "events": {
+    "label": "Etkinlikler",
+    "title": "Etkinlikler ve Duyurular",
+    "intro": "Yaklaşan programımız ve geçmiş etkinliklerimiz.",
+    "upcoming": "Yaklaşan",
+    "past": "Geçmiş",
+    "empty": "Şu anda listelenecek etkinlik yok. Yakında burada!",
+    "announcementsTitle": "Duyurular",
+    "announcementsEmpty": "Şu anda duyuru yok.",
+    "detailsLink": "Detay"
+  },
+  "media": {
+    "label": "Medya",
+    "title": "Bizi izleyin",
+    "intro": "Kulübü en iyi videolarımız anlatır. Kanalımıza abone olun, hiçbir etkinliği kaçırmayın.",
+    "subscribe": "Abone Ol",
+    "othersTitle": "Diğer platformlar",
+    "othersText": "Duyurular ve perde arkası için:"
+  },
+  "join": {
+    "label": "Üye Ol",
+    "title": "Aramıza katıl",
+    "intro": "Formu doldur, seni ilk etkinlikte aramızda görelim. Başvurular yönetim kurulu tarafından değerlendirilir.",
+    "fields": {
+      "name": "Ad Soyad",
+      "studentNo": "Öğrenci Numarası",
+      "department": "Bölüm / Fakülte",
+      "classYear": "Sınıf",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "motivation": "Neden katılmak istiyorsun? (opsiyonel)",
+      "motivationPlaceholder": "Birkaç cümle yeter…"
+    },
+    "classOptions": {
+      "prep": "Hazırlık",
+      "y1": "1. Sınıf",
+      "y2": "2. Sınıf",
+      "y3": "3. Sınıf",
+      "y4": "4. Sınıf",
+      "grad": "Lisansüstü"
+    },
+    "kvkkLabel": "KVKK Aydınlatma Metni",
+    "kvkkText": "Kişisel verilerimin, üyelik başvurumun alınması ve değerlendirilmesi amacıyla 6698 sayılı KVKK kapsamında CHMK tarafından işlenmesini kabul ediyorum.",
+    "submit": "Başvuruyu Gönder",
+    "sending": "Gönderiliyor…",
+    "successTitle": "Başvurun alındı!",
+    "successText": "Teşekkürler! Başvurunu değerlendirip e-posta üzerinden sana döneceğiz.",
+    "errors": {
+      "required": "Bu alan zorunlu.",
+      "email": "Geçerli bir e-posta adresi gir.",
+      "kvkk": "Devam etmek için KVKK metnini onaylamalısın.",
+      "generic": "Bir şeyler ters gitti. Lütfen tekrar dene."
+    }
+  },
+  "contact": {
+    "label": "İletişim",
+    "title": "Bize ulaşın",
+    "intro": "Soruların, iş birliği tekliflerin veya sadece merhaba demek için.",
+    "emailTitle": "E-posta",
+    "socialTitle": "Sosyal Medya",
+    "formTitle": "Kısa mesaj bırak",
+    "form": {
+      "name": "Adın",
+      "email": "E-postan",
+      "message": "Mesajın",
+      "send": "E-posta uygulamanda aç"
+    },
+    "formNote": "Bu form mesajını e-posta uygulamanda hazırlar; gönderimi sen yaparsın.",
+    "locationTitle": "Konum",
+    "locationText": "İTÜ Ayazağa Kampüsü, Maden Fakültesi, 34469 Sarıyer / İstanbul"
+  },
+  "footer": {
+    "tagline": "İTÜ Cevher Hazırlama Mühendisliği Kulübü. Kırar, öğütür, zenginleştiririz.",
+    "linksTitle": "Sayfalar",
+    "contactTitle": "İletişim",
+    "joinCta": "Üye Ol",
+    "rights": "Tüm hakları saklıdır."
+  }
+}
