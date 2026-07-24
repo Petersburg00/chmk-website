@@ -1,17 +1,16 @@
 /**
- * TODO: Kulubun gercek linkleriyle doldurun.
- * Tum sosyal medya ve video referanslari tek yerden yonetilir.
+ * Kulubun iletisim ve sosyal medya bilgileri tek yerden yonetilir.
  */
 export const siteConfig = {
-  contactEmail: "chmk@itu.edu.tr", // TODO: gercek e-posta
+  contactEmail: "chmkitu@gmail.com",
   youtube: {
-    channelUrl: "https://www.youtube.com/@chmk", // TODO
-    featuredVideoId: "dQw4w9WgXcQ", // TODO: one cikan video ID'si
+    channelUrl: "https://www.youtube.com/@CevherHaz%C4%B1rlama",
+    featuredVideoId: "35ufxL7SEVQ",
   },
   socials: {
-    instagram: "https://instagram.com/chmk_itu", // TODO
-    linkedin: "https://linkedin.com/company/chmk", // TODO
-    x: "https://x.com/chmk_itu", // TODO
+    instagram: "https://www.instagram.com/ituchmk/",
+    linkedin: "https://www.linkedin.com/company/ituchmk",
+    x: "https://x.com/ituchmk",
   },
   foundedYear: 2008, // kurulus yili: sayi bolumu her yil otomatik guncellenir
 };
