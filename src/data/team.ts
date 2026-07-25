@@ -19,6 +19,7 @@ export type TeamMember = {
 export const advisor: TeamMember[] = [
   {
     name: "Prof. Dr. Gülay Bulut",
+    photo: "/images/team/gulay-bulut.jpg",
     roleKey: "advisor",
     linkedin: "https://www.linkedin.com/in/g%C3%BClay-bulut-3612225a/",
   },
@@ -33,11 +34,13 @@ export const leadership: TeamMember[] = [
   },
   {
     name: "Duru Kırmızı",
+    photo: "/images/team/duru-kirmizi.jpg",
     roleKey: "vicePresident",
     linkedin: "https://www.linkedin.com/in/duru-k%C4%B1rm%C4%B1z%C4%B1/",
   },
   {
     name: "Enes Berk Işık",
+    photo: "/images/team/enes-berk-isik.jpg",
     roleKey: "auditHead",
     linkedin: "https://www.linkedin.com/in/enesberkisik/",
   },
@@ -62,6 +65,7 @@ export const board: TeamMember[] = [
   },
   {
     name: "Davut Giray Şerabatır",
+    photo: "/images/team/davut-giray-serabatir.jpg",
     roleKey: "boardMember",
     linkedin:
       "https://www.linkedin.com/in/davut-giray-%C5%9Ferabatir-b5b3202b9/",
@@ -73,16 +77,19 @@ export const board: TeamMember[] = [
   },
   {
     name: "Yunus Emre Yıldırım",
+    photo: "/images/team/yunus-emre-yildirim.jpg",
     roleKey: "boardMember",
     linkedin: "https://www.linkedin.com/in/yunus-emre-yildirim-/",
   },
   {
     name: "Buse Kanay",
+    photo: "/images/team/buse-kanay.jpg",
     roleKey: "boardMember",
     linkedin: "https://www.linkedin.com/in/buse-kanay-1a8644263/",
   },
   {
     name: "Muhammet Kaan Tarı",
+    photo: "/images/team/muhammet-kaan-tari.jpg",
     roleKey: "boardMember",
     linkedin: "https://www.linkedin.com/in/kaan-tar%C4%B1-651275293/",
   },
@@ -96,11 +103,13 @@ export const audit: TeamMember[] = [
   },
   {
     name: "Hızır Kadir Potur",
+    photo: "/images/team/hizir-kadir-potur.jpg",
     roleKey: "auditMember",
     linkedin: "https://www.linkedin.com/in/h%C4%B1z%C4%B1r-kadir-potur-58145a250/",
   },
   {
     name: "Harun Cem Ersoy",
+    photo: "/images/team/harun-cem-ersoy.jpg",
     roleKey: "auditMember",
     linkedin: "https://www.linkedin.com/in/harun-cem-ersoy-84450229b/",
   },
