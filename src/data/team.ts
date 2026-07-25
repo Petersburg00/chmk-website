@@ -99,6 +99,7 @@ export const audit: TeamMember[] = [
   {
     name: "Fikri Yetimoğlu",
     roleKey: "auditMember",
+    photo: "/images/team/fikri-yetimoglu.jpg",
     linkedin: "https://www.linkedin.com/in/fikriytm/",
   },
   {

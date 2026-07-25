@@ -89,6 +89,7 @@
     "intro": "Danışmanımız, yönetim kurulumuz ve denetim kurulumuz.",
     "groups": {
       "advisor": "Danışman",
+      "leadership": "Yönetim",
       "board": "Yönetim Kurulu",
       "audit": "Denetim Kurulu"
     },

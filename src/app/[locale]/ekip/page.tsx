@@ -103,7 +103,8 @@ export default async function TeamPage({
       </section>
 
       {/* Baskan, baskan yardimcisi, denetim kurulu baskani */}
-      <section className="mt-10">
+      <section className="mt-16">
+        <SectionLabel>{t("groups.leadership")}</SectionLabel>
         <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3">
           {leadership.map((member) => (
             <MemberCard

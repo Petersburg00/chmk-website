@@ -89,6 +89,7 @@
     "intro": "Our advisor, executive board and audit board.",
     "groups": {
       "advisor": "Advisor",
+      "leadership": "Leadership",
       "board": "Executive Board",
       "audit": "Audit Board"
     },

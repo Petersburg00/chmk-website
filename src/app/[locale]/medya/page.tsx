@@ -28,6 +28,7 @@ export default async function MediaPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("media");
+  const th = await getTranslations("home");
 
   return (
     <div className="wrap pb-24 pt-32 md:pt-40">
@@ -37,7 +38,7 @@ export default async function MediaPage({
 
       {/* YouTube on planda */}
       <div className="mt-12">
-        <YouTubeFeature title={t("title")} subscribeLabel={t("subscribe")} />
+        <YouTubeFeature title={th("videoTitle")} subscribeLabel={t("subscribe")} />
       </div>
 
       {/* Diger platformlar ikincil */}

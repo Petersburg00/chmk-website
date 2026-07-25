@@ -19,7 +19,7 @@ export default function YouTubeFeature({
           allowFullScreen
         />
       </div>
-      <div className="mt-5 flex flex-wrap items-center justify-between gap-4">
+      <div className="mt-5 flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
         <h3 className="display text-2xl md:text-3xl">{title}</h3>
         <a
           href={siteConfig.youtube.channelUrl}
