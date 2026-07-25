@@ -18,7 +18,7 @@ export default function Footer() {
     <footer className="border-t border-line bg-surface">
       <div className="wrap grid gap-10 py-14 md:grid-cols-3">
         <div>
-          <img src="/images/logo-dark.svg" alt="CHMK" className="h-10 w-auto dark:hidden" /><img src="/images/logo-light.svg" alt="CHMK" className="hidden h-10 w-auto dark:block" />
+          <img src="/images/logo-dark.png" alt="CHMK" className="h-10 w-auto dark:hidden" /><img src="/images/logo-light.png" alt="CHMK" className="hidden h-10 w-auto dark:block" />
           <p className="mt-4 max-w-xs text-sm text-muted">
             {t("footer.tagline")}
           </p>

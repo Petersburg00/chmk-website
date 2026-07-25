@@ -38,7 +38,7 @@ export default function LoadingScreen() {
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <img
-              src="/images/logo-dark.svg"
+              src="/images/logo-dark.png"
               alt="CHMK"
               width={260}
               className="w-[240px] md:w-[300px]"

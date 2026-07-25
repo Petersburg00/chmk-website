@@ -76,7 +76,7 @@ export default function Header() {
       <header className="fixed inset-x-0 top-0 z-50 border-b border-line bg-background/85 backdrop-blur-md">
         <div className="wrap flex h-16 items-center justify-between md:h-20">
           <Link href="/" aria-label="CHMK: Ana Sayfa" className="flex items-center">
-            <img src="/images/logo-dark.svg" alt="CHMK" className="h-9 md:h-10 w-auto dark:hidden" /><img src="/images/logo-light.svg" alt="CHMK" className="hidden h-9 md:h-10 w-auto dark:block" />
+            <img src="/images/logo-dark.png" alt="CHMK" className="h-9 md:h-10 w-auto dark:hidden" /><img src="/images/logo-light.png" alt="CHMK" className="hidden h-9 md:h-10 w-auto dark:block" />
           </Link>
 
           <div className="flex items-center gap-2 md:gap-3">
@@ -107,7 +107,7 @@ export default function Header() {
           >
             <div className="wrap flex h-16 items-center justify-between md:h-20">
               <img
-                src="/images/logo-light.svg"
+                src="/images/logo-light.png"
                 alt="CHMK"
                 className="h-9 w-auto"
               />
