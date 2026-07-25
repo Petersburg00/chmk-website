@@ -56,9 +56,6 @@ body {
 }
 
 /* Logo has dark lettering; keep it on a light chip so it works on the dark theme */
-.logo-chip {
-  @apply inline-flex items-center rounded-lg bg-[#f5f1e8] px-2.5 py-1.5;
-}
 
 @media (prefers-reduced-motion: reduce) {
   html {

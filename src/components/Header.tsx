@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
@@ -76,15 +75,8 @@ export default function Header() {
     <>
       <header className="fixed inset-x-0 top-0 z-50 border-b border-line bg-background/85 backdrop-blur-md">
         <div className="wrap flex h-16 items-center justify-between md:h-20">
-          <Link href="/" aria-label="CHMK: Ana Sayfa" className="logo-chip">
-            <Image
-              src="/images/logo.png"
-              alt="CHMK"
-              width={104}
-              height={44}
-              className="h-8 w-auto md:h-9"
-              priority
-            />
+          <Link href="/" aria-label="CHMK: Ana Sayfa" className="flex items-center">
+            <img src="/images/logo-dark.svg" alt="CHMK" className="h-9 md:h-10 w-auto dark:hidden" /><img src="/images/logo-light.svg" alt="CHMK" className="hidden h-9 md:h-10 w-auto dark:block" />
           </Link>
 
           <div className="flex items-center gap-2 md:gap-3">
@@ -114,15 +106,11 @@ export default function Header() {
             aria-modal="true"
           >
             <div className="wrap flex h-16 items-center justify-between md:h-20">
-              <span className="logo-chip">
-                <Image
-                  src="/images/logo.png"
-                  alt="CHMK"
-                  width={104}
-                  height={44}
-                  className="h-8 w-auto"
-                />
-              </span>
+              <img
+                src="/images/logo-light.svg"
+                alt="CHMK"
+                className="h-9 w-auto"
+              />
               <button
                 type="button"
                 onClick={() => setOpen(false)}

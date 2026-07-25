@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 import { Link } from "@/i18n/navigation";
@@ -19,15 +18,7 @@ export default function Footer() {
     <footer className="border-t border-line bg-surface">
       <div className="wrap grid gap-10 py-14 md:grid-cols-3">
         <div>
-          <span className="logo-chip">
-            <Image
-              src="/images/logo.png"
-              alt="CHMK"
-              width={120}
-              height={50}
-              className="h-9 w-auto"
-            />
-          </span>
+          <img src="/images/logo-dark.svg" alt="CHMK" className="h-10 w-auto dark:hidden" /><img src="/images/logo-light.svg" alt="CHMK" className="hidden h-10 w-auto dark:block" />
           <p className="mt-4 max-w-xs text-sm text-muted">
             {t("footer.tagline")}
           </p>

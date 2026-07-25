@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -38,12 +37,11 @@ export default function LoadingScreen() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
-            <Image
-              src="/images/logo.png"
+            <img
+              src="/images/logo-dark.svg"
               alt="CHMK"
-              width={220}
-              height={92}
-              priority
+              width={260}
+              className="w-[240px] md:w-[300px]"
             />
           </motion.div>
         </motion.div>

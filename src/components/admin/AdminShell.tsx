@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { ExternalLink, LogOut } from "lucide-react";
 import { getBrowserClient } from "@/lib/supabase-browser";
@@ -33,9 +32,7 @@ export default function AdminShell({
       <header className="sticky top-0 z-40 border-b border-line bg-background/90 backdrop-blur">
         <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-5 py-3">
           <Link href="/admin/etkinlikler" className="flex items-center gap-3">
-            <span className="logo-chip">
-              <Image src="/images/logo.png" alt="CHMK" width={30} height={30} />
-            </span>
+            <img src="/images/logo-dark.svg" alt="CHMK" className="h-7 w-auto dark:hidden" /><img src="/images/logo-light.svg" alt="CHMK" className="hidden h-7 w-auto dark:block" />
             <span className="text-sm font-bold tracking-wide">
               Yönetim
             </span>

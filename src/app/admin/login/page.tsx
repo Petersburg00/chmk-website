@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { getBrowserClient } from "@/lib/supabase-browser";
 
@@ -34,9 +33,7 @@ export default function AdminLoginPage() {
     <div className="flex min-h-svh items-center justify-center px-5">
       <div className="w-full max-w-sm rounded-2xl border border-line bg-surface p-8">
         <div className="mb-6 flex items-center gap-3">
-          <span className="logo-chip">
-            <Image src="/images/logo.png" alt="CHMK" width={34} height={34} />
-          </span>
+          <img src="/images/logo-dark.svg" alt="CHMK" className="h-8 w-auto dark:hidden" /><img src="/images/logo-light.svg" alt="CHMK" className="hidden h-8 w-auto dark:block" />
           <div>
             <p className="font-bold">CHMK Yönetim Paneli</p>
             <p className="text-xs text-muted">Sadece yetkili kullanıcılar</p>

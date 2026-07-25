@@ -63,14 +63,13 @@ Kayıt (sign-up) tamamen kapalıdır; yöneticiler yalnızca Dashboard'dan eklen
 | Hero ve carousel görselleri (şu an üretilmiş yer tutucular) | `public/images/hero.jpg`, `carousel-1.jpg`, `carousel-2.jpg` |
 | Ekip fotoğrafları ve LinkedIn linkleri | `src/data/team.ts` (`photo` alanına `/images/team/isim.jpg` gibi yol verin) |
 | Hakkımızda, misyon, vizyon, tarihçe, KVKK metinleri | `messages/tr.json` ve `messages/en.json` |
-| Logo / favicon | `public/images/logo.png`, `src/app/icon.png` |
+| Logo (vektor, koyu/acik varyant) ve favicon | `public/images/logo-dark.svg`, `logo-light.svg`, `mark.svg`, `src/app/icon.svg` |
 
 Notlar:
 
 - **KVKK metni** (`join.kvkkText`) yer tutucudur; yayına almadan önce kulüp danışmanı veya hukuk birimiyle gözden geçirin.
 - CSV dışa aktarma `;` ayracı ve BOM kullanır; Türkçe Excel'de doğru açılır.
 - İletişim formu arka uç gerektirmez, `mailto:` ile e-posta uygulamasını açar.
-- Beyaz zeminli logo koyu temada "chip" içinde gösterilir. Şeffaf/koyu zemin varyantınız varsa `Header.tsx` ve `Footer.tsx` içindeki `logo-chip` sarmalayıcısını kaldırabilirsiniz.
 
 ## Komutlar
 
